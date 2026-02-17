@@ -42,13 +42,13 @@
         <a href="#">
           <article class="carte">
             <p class="rond">«</p>
-            <p>Quels guillemets choisir pour le Web ?</p>
+            <p class="description">Quels guillemets choisir pour le Web ?</p>
           </article>
         </a>
 
         <a href="#">
           <article class="carte">
-            <p>Qu’est-ce qu’un espace insécable ?</p>
+            <p class="description">Qu’est-ce qu’un espace insécable ?</p>
             <p class="rond">&amp;nbsp</p>
           </article>
         </a>
@@ -56,13 +56,13 @@
         <a href="#">
           <article class="carte">
             <p class="rond">Windows</p>
-            <p>S’occuper de la veuve et de l’orphelin.</p>
+            <p class="description">S’occuper de la veuve et de l’orphelin.</p>
           </article>
         </a>
 
         <a href="#">
           <article class="carte">
-            <p>Et la hauteur de ligne dans tout ça ?</p>
+            <p class="description">Et la hauteur de ligne dans tout ça ?</p>
             <p class="rond">line-height</p>
           </article>
         </a>
@@ -71,37 +71,44 @@
 
     <section class="texte">
       <div class="wrapper">
-        <article>
-          <p>
-            Lors du choix des polices de caractères, un concepteur Web se tourne
-            vers celles conçues pour une bonne lecture à l’écran et qui se
-            retrouvent sur la majorité des plateformes. On recommande ainsi une
-            <strong>police sans sérif</strong> (sans petites pattes) qui
-            facilite la lecture à l’écran. Pour le choix des polices,
-            <strong>Google Font</strong> s’avère une ressource très utilisée qui
-            permet de trouver facilement une police qui conviendra à tous les
-            écrans.
-          </p>
-        </article>
-        <article>
-          <p>
-            <strong>Test à faire en dernier :</strong><br />
-            Insérez un espace insécable entre le mot «insécable» et le «?» du
-            deuxième. Observez le résultat lors du redimensionnement de votre
-            écran.Vous pourrez observer que le «?» suivra toujours le mot qui le
-            précède, ce qui permet d’éviter d’avoir une ponctuation orpheline à
-            la ligne suivante (problème de la veuve et l’orphelin).
-          </p>
-        </article>
+        <div class="information">
+          <article>
+            <p>
+              Lors du choix des polices de caractères, un concepteur Web se
+              tourne vers celles conçues pour une bonne lecture à l’écran et qui
+              se retrouvent sur la majorité des plateformes. On recommande ainsi
+              une
+              <strong>police sans sérif</strong> (sans petites pattes) qui
+              facilite la lecture à l’écran. Pour le choix des polices,
+              <strong>Google Font</strong> s’avère une ressource très utilisée
+              qui permet de trouver facilement une police qui conviendra à tous
+              les écrans.
+            </p>
+          </article>
+          <article>
+            <p>
+              <strong>Test à faire en dernier :</strong><br />
+              Insérez un espace insécable entre le mot «insécable» et le «?» du
+              deuxième. Observez le résultat lors du redimensionnement de votre
+              écran.Vous pourrez observer que le «?» suivra toujours le mot qui
+              le précède, ce qui permet d’éviter d’avoir une ponctuation
+              orpheline à la ligne suivante (problème de la veuve et
+              l’orphelin).
+            </p>
+          </article>
+        </div>
       </div>
     </section>
 
     <footer class="footer">
       <div class="wrapper">
-        <p>La typographie</p>
-        <p class="rond2">
-          <span class="material-symbols-outlined"> health_cross </span>
-        </p>
+        <div class="papa">
+          <p class="gurt">La typographie</p>
+          <a href="#">
+            <p class="rond2">
+              <span class="material-symbols-outlined"> health_cross </span>
+            </p></a>
+        </div>
       </div>
     </footer>
   </body>
